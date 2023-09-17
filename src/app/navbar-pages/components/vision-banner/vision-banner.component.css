@@ -1,0 +1,45 @@
+.banner{
+    height: 100vh;
+    background-image: url('../../../../assets/images/vession-banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner .banner-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    width: 30%;
+    position: relative;
+    z-index: 999;
+}
+.banner h2{
+    border-right: 0.5rem solid var(--alt-color);
+    border-radius: 0.5rem ;
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+    
+}
+.banner p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+@media(max-width:992px){
+    .banner{
+       background-position: bottom;
+
+      
+    }
+    .banner .banner-content{
+        width: 80%;
+    }
+    .banner h2{
+        font-size: 2.5rem;
+    }
+    .banner p{
+        font-size: 2rem;
+    }}

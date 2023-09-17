@@ -1,0 +1,22 @@
+/* start navbar style -------------------------------- */
+.navbar {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: rgba(35, 189, 155, 0.747);
+    
+    z-index: 99999999999;
+    color: #fff !important;
+}
+.navbar a{
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 1.25rem ;
+    margin: 0 1rem;
+}
+.navbar .navbar-brand img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
